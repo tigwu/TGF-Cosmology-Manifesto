@@ -1,0 +1,14 @@
+# TGF Flux Solver - Concept
+for particle in galaxy_field:
+    # 1. Calculate pressure from Voids (Source)
+    inflow = calculate_void_pressure(particle.position)
+    
+    # 2. Apply Viscosity (The "Dark Matter" effect)
+    drag_force = eta * laplacian(particle.velocity)
+    
+    # 3. Sink effect at the center (S_gal < 0)
+    if particle.at_center():
+        particle.eject_polar() # Create Fermi Bubbles (Phi_Out)
+    
+    # 4. Update velocity and position
+    particle.velocity += inflow + drag_force
