@@ -1,50 +1,52 @@
-# Empirical Validation of the TGF Model: Observational Signatures in Cosmic Voids
-## Validation empirique du modèle TGF : Signatures observationnelles dans les vides cosmiques
+# Grand Flow Theory (TGF) / Théorie du Grand Flux
+### A Stationary Metabolic Universe Model / Modèle d'Univers Stationnaire Métabolique
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19595069-blue)](https://doi.org/10.5281/zenodo.19595069)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.VOTRE_NUMERO-blue)](https://doi.org/10.5281/zenodo.VOTRE_NUMERO)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
-### Abstract / Résumé
+---
 
-[cite_start]**[EN]** As the ΛCDM model faces increasing tensions (Hubble tension, early massive galaxies), we propose a falsifiable framework based on the Grand Flow Theory (TGF)[cite: 83]. [cite_start]This stationary model describes a metabolic universe where cosmic voids act as sources of pristine matter (H/He) while black holes serve as recycling sinks[cite: 84]. 
-
-[cite_start]**[FR]** Alors que le modèle ΛCDM fait face à des tensions croissantes (tension de Hubble, galaxies massives précoces), nous proposons un cadre falsifiable basé sur la Théorie du Grand Flux (TGF)[cite: 89]. [cite_start]Ce modèle stationnaire décrit un univers métabolique où les vides cosmiques agissent comme des sources de matière vierge (H/He) et les trous noirs comme des puits de recyclage[cite: 90].
+## 📖 Documentation & Arborescence
+* **[Theory/Theory_Manifesto.pdf](./Theory/MANIFESTE-DE-LA-THÉORIE-DU-GRAND-FLUX-v6.6.pdf)** : Le cœur théorique. Décrit le cycle métabolique, la photodésintégration dans les trous noirs et la résonance harmonique (CMB).
+* **[Observations/Empirical_Validation.pdf](./Observations/VALIDATION-EMPIRIQUE-TGF.pdf)** : Le protocole de test. Détaille les signatures observationnelles et les critères de falsification.
 
 ---
 
-### Critical Observational Tests / Tests Observationnels Critiques
+## 🌌 Abstract / Résumé
+[cite_start]**[EN]** GFT presents a stationary Universe where spacetime is a circulating superfluid scalar field. [cite_start]By replacing hypothetical entities (Dark Matter/Energy) with viscous fluid dynamics, this model explains galactic anomalies and redshift without a Big Bang[cite: 7, 10]. [cite_start]It introduces a complete metabolic cycle between Sources (Great Voids) and Sinks (Black Holes)[cite: 8, 11].
 
-[cite_start]This paper defines three critical tests to distinguish TGF from the Big Bang paradigm[cite: 85, 91]:
-
-1.  [cite_start]**H/He Invariance:** The H/He ratio must remain stable ($\approx 25\%$ He) in deep voids, regardless of age or location[cite: 86, 92, 95, 96].
-2.  [cite_start]**Lithium-7 Absence:** Total absence of Li-7 in source regions (pristine void gas), identifying it as a stellar-only byproduct[cite: 87, 93, 98, 100].
-3.  [cite_start]**Radial Outflow:** A non-gravitational radial injection flux ($V_r$) at the periphery of voids, exceeding standard Hubble expansion[cite: 88, 94, 101, 103].
+[cite_start]**[FR]** La TGF présente un Univers stationnaire où l'espace-temps est un champ scalaire superfluide en circulation cyclique[cite: 6]. [cite_start]En remplaçant les entités hypothétiques (Matière/Énergie Noire) par la dynamique d'un fluide visqueux, ce modèle explique les anomalies galactiques et le redshift sans Big Bang[cite: 7]. [cite_start]Il introduit un cycle métabolique complet entre des Sources (Grands Vides) et des Puits (Trous Noirs)[cite: 8].
 
 ---
 
-### Comparison Table / Tableau Comparatif
+## 🛠 Critical Observational Tests / Tests Observationnels Critiques
+This framework defines three critical tests to distinguish TGF from the Big Bang paradigm:
+* [cite_start]**H/He Invariance:** The H/He ratio remains stable ($\approx 25\%$ He) in deep voids, regulated by the "Transit Forge"[cite: 19, 21].
+* [cite_start]**Lithium-7 Absence:** Total absence of Li-7 in source regions (pristine void gas/Chemical Zero)[cite: 24, 26].
+* [cite_start]**Radial Outflow:** A non-gravitational radial injection flux ($V_r$) at the periphery of voids, created by injection pressure $P_f$[cite: 25, 27].
 
+---
+
+## 📉 Comparison Table / Tableau Comparatif
 | Feature / Phénomène | ΛCDM (Big Bang) | TGF / AlphaCDM |
 | :--- | :--- | :--- |
-| **H/He Variance** | [cite_start]Moderate (Fluctuations) [cite: 108] | [cite_start]**Extremely Low (Regulated)** [cite: 109] |
-| **Lithium-7 in Voids** | [cite_start]Present ($10^{-9}$) [cite: 111] | [cite_start]**Absent (Zero)** [cite: 112] |
-| **Void Dynamics** | [cite_start]Passive (Vacuum) [cite: 114] | [cite_start]**Active (Source/Pressure)** [cite: 115] |
-| **Metallicity Gradient** | [cite_start]Stochastic / Random [cite: 117] | [cite_start]**Radial (Pure Center → Polluted Edge)** [cite: 118] |
+| **H/He Variance** | Moderate (Fluctuations) | **Extremely Low (Regulated)** |
+| **Lithium-7 in Voids** | Present ($10^{-9}$) | **Absent (Zero)** |
+| **Void Dynamics** | Passive (Vacuum) | **Active (Source/Pressure)** |
+| **Metallicity Gradient** | Stochastic / Random | **Radial (Pure Center → Edge)** |
 
 ---
 
-### Theoretical Framework / Cadre Théorique (Section 6.6)
-
-[cite_start]The core dynamics are governed by the following field equation, where the viscosity $\mu$ of the $\phi$ fluid laminates temporal information[cite: 31, 33, 35]:
+## 🧮 Theoretical Framework / Cadre Théorique
+[cite_start]The core dynamics are governed by the following field equation, where the viscosity $\mu$ of the $\phi$ fluid laminates temporal information[cite: 35, 37]:
 
 $$\nabla \cdot \left[ \left( 1 + \kappa \frac{|\nabla \phi|}{\mu(\phi)} \right) \nabla \phi \right] = 4\pi G\rho_b$$
 
 ---
 
-### Integrity Note / Note d'Intégrité
-
-These predictions provide a clear path for falsification. [cite_start]If significant Li-7 or high metallicity is found in the core of pristine supervoids, the TGF model is invalidated[cite: 119, 121].
+## 📜 Epilogue: The Eternal River / La Rivière Éternelle
+> [cite_start]"The Universe is not a fleeting explosion, but a fluid symphony. Every star is an eddy, every void a cradle. We inhabit the current of an eternal river, of which we are, for a moment, the conscious observers." [cite: 49, 50]
 
 **Author:** Stéphane Gavelle / Collectif TGF  
 **Collaborator:** Gemini (Google AI)  
-[cite_start]**Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) [cite: 122]
+**Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
