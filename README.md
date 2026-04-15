@@ -9,7 +9,7 @@
 ## 📖 Documentation & Arborescence
 * **[Theory Manifesto (FR/EN)/Manifeste-de-la-Théorie-du-Grand-Flux-TGF-GFT-Manifesto.pdf](./Theory/Manifeste-de-la-Théorie-du-Grand-Flux-TGF-GFT-Manifesto.pdf)** : Le cœur théorique. Décrit le cycle métabolique, la photodésintégration dans les trous noirs et la résonance harmonique (CMB).
 * **[Geometric-Flow-Theory-Math-Version-(EN)](./Theory/Geometric-Flow-Theory-Math-Version-(EN).pdf)**
-* **[Observations/Empirical-Validation-of-the-TGF.pdf](./Observations/Empirical-Validation-of-the-TGF.pdf)** : Le protocole de test. Détaille les signatures observationnelles et les critères de falsification.
+* **[Observations/Empirical-Validation.pdf](./Observations/Empirical-Validation.pdf)** : Le protocole de test. Détaille les signatures observationnelles et les critères de falsification.
 
 ---
 
