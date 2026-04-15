@@ -1,37 +1,23 @@
 # ==========================================
-# TGF FLUX SIMULATOR - Core Engine (v2.0)
-# Transition de Phase & Dynamique des Bras
+# TGF - THE GALACTIC METABOLISM ENGINE
 # ==========================================
+# Conceptual Model: Flux -> Matter -> Exhaust
 
-import numpy as np
+def compute_galactic_cycle(phi_density, viscosity_eta):
+    # 1. VISCOUS DRAG (The Dark Matter Substitute)
+    # The viscosity eta stabilizes the rotation curve
+    velocity = apply_viscous_flow(phi_density, viscosity_eta)
+    
+    # 2. PHASE TRANSITION (The Birth of Stars)
+    # High pressure in spiral arms triggers condensation
+    if phi_density > CRITICAL_THRESHOLD:
+        baryonic_matter = precipitate_matter(phi_density)
+        update_visuals("Spiral_Arms_Glowing")
+        
+    # 3. POLAR RECYCLING (The Sink effect)
+    # Excess flow and old matter are processed by the central Sink
+    if is_central_sink():
+        eject_polar_outflow("Fermi_Bubbles")
+        recycle_to_lower_circuit()
 
-class GalaxyFlow:
-    def __init__(self, eta, rho_crit):
-        self.eta = eta                # Viscosité cinématique du vide
-        self.rho_crit = rho_crit      # Seuil de condensation (Flux -> Matière)
-        self.phi_field = []           # Le champ scalaire circulant
-
-    def run_step(self):
-        """
-        Calcule un pas de temps du métabolisme galactique
-        """
-        for cell in self.phi_field:
-            # 1. Calcul de l'injection (Source: Grands Vides)
-            # inflow = pressure_from_voids(cell.pos)
-            
-            # 2. Application de la viscosité (Effet Matière Noire)
-            # drag = self.eta * laplacian(cell.velocity)
-            
-            # 3. TRANSITION DE PHASE (Nouveauté TGF)
-            # Si la compression dépasse le seuil, le flux précipite en matière
-            if cell.density > self.rho_crit:
-                cell.star_formation_rate = (cell.density - self.rho_crit) * 0.1
-                cell.baryon_mass += cell.star_formation_rate
-                cell.density -= cell.star_formation_rate # Conservation de l'énergie
-            
-            # 4. Échappement Polaire (Puits: Trou Noir central)
-            if cell.is_at_center():
-                self.eject_fermi_bubbles(cell)
-
-# Note: Ce code remplace les modèles N-corps classiques par une 
-# approche hydrodynamique scalaire (CFD).
+    return velocity, baryonic_matter
