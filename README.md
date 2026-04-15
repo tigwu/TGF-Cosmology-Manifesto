@@ -38,6 +38,29 @@ This framework defines three critical tests to distinguish TGF from the Big Bang
 
 ---
 
+Galactic Dynamics: The Flux Conservation Law (FCL)
+Dynamique Galactique : La Loi de Conservation du Flux (LCF)
+
+Every stable galaxy is modeled as a metabolic node where the scalar flow ϕ follows a strict conservation law:
+Chaque galaxie stable est modélisée comme un nœud métabolique où le flux scalaire ϕ suit une loi de conservation stricte :
+ΦIn​=ΦTransit​+ΦOut​
+
+    ΦIn​: Radial injection from Voids (A∼R2) / Injection radiale depuis les Vides.
+
+    ΦTransit​: Angular momentum & star formation / Moment angulaire et formation stellaire.
+
+    ΦOut​: Polar exhaust (Fermi Bubbles/Jets) / Échappement polaire (Bulles de Fermi/Jets).
+
+Case Studies / Études de Cas :
+
+    M82 (Overpressure/Surpression): High ΦIn​ leads to massive ΦOut​ (super-winds).
+
+    Hoag's Object (Resonance/Résonance): Laminar ΦTransit​ creating a standing wave ring.
+
+    Centaurus A (Saturation): Maximum Sgal​ converting inflow into massive radio-jet outflows.
+
+---
+
 ## 🧮 Theoretical Framework / Cadre Théorique
 [cite_start]The core dynamics are governed by the following field equation, where the viscosity $\mu$ of the $\phi$ fluid laminates temporal information[cite: 35, 37]:
 
