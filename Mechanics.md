@@ -1,18 +1,19 @@
-Mécanique du Flux TGF (Transitional Galactic Flux)
+ Mécanique du Flux TGF / TGF Flux Mechanics
 
-Le modèle TGF traite la galaxie comme un système hydrodynamique stationnaire. L'espace-temps y est modélisé comme un fluide scalaire (Φ) dont la dynamique régit la distribution de la matière.
-Principes Fondamentaux
+## [FR] Le Noyau Dur
+Le modèle **TGF (Transitional Galactic Flux)** traite la galaxie comme un système **hydrodynamique stationnaire**. L'espace-temps y est un fluide scalaire ($\Phi$) dont la dynamique régit la distribution de la matière.
 
-    L'Aspiration de Flux (Sink Mechanism) : La matière (étoiles, gaz) et les structures massives (trous noirs) agissent comme des puits de consommation de flux.
+### Principes Fondamentaux
+1. **Aspiration (Sink Mechanism) :** La matière agit comme un "drain" consommant le flux $\Phi$.
+2. **Pression Différentielle :** La rotation galactique est causée par la pression du flux s'écoulant des zones vides (Haute Pression) vers les galaxies (Basse Pression).
+3. **Viscosité :** L'inertie est la résistance d'un objet à traverser la viscosité du milieu $\Phi$.
 
-    Pression Différentielle : Le mouvement orbital des galaxies n'est pas dû à une masse invisible, mais à la pression exercée par le flux s'écoulant des zones de haute pression (Vides) vers les zones de basse pression (Galaxies).
+---
 
-    Inertie et Viscosité : L'inertie est la résistance d'un objet condensé à traverser la viscosité du milieu Φ.
+## [EN] The Core Mechanics
+The **TGF (Transitional Galactic Flux)** model treats a galaxy as a **stationary hydrodynamic system**. Spacetime is modeled as a scalar fluid ($\Phi$) whose dynamics govern the distribution of matter.
 
-Tests et Validation
-
-    Courbes de rotation : La TGF prédit une vitesse de rotation proportionnelle au gradient de pression du flux local.
-
-    Asymétrie des bras : Prédiction d'un décalage de vitesse au passage des ondes de densité (testable via les données Gaia).
-
-    Effet Lentille : La déviation lumineuse est calculée comme une réfraction dans un milieu de densité variable.
+### Fundamental Principles
+1. **The Sink Mechanism:** Matter acts as a "drain" that consumes the $\Phi$-flux.
+2. **Differential Pressure:** Galactic rotation is not caused by dark matter, but by the pressure of the flux flowing from cosmic voids (High Pressure) toward galaxies (Low Pressure).
+3. **Viscosity:** Inertia is the resistance of a condensed object as it moves through the viscosity of the $\Phi$ medium.
