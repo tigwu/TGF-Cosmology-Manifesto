@@ -1,7 +1,7 @@
 # Empirical Validation of the TGF Model: Observational Signatures in Cosmic Voids
 ## Validation empirique du modèle TGF : Signatures observationnelles dans les vides cosmiques
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19595069)](https://doi.org/10.5281/zenodo.19595069)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19595069-blue)](https://doi.org/10.5281/zenodo.19595069)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Abstract / Résumé
