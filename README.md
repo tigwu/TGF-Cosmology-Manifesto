@@ -7,7 +7,7 @@
 ---
 
 ## 📖 Documentation & Arborescence
-* **[Theory/Manifeste de la Théorie du Grand Flux TGF_ GFT Manifesto.pdf](./Theory/Manifeste de la Théorie du Grand Flux TGF_ GFT Manifesto.pdf)** : Le cœur théorique. Décrit le cycle métabolique, la photodésintégration dans les trous noirs et la résonance harmonique (CMB).
+* **[Theory Manifesto/Manifeste de la Théorie du Grand Flux TGF_ GFT Manifesto.pdf](./Theory/Manifeste de la Théorie du Grand Flux TGF_ GFT Manifesto.pdf)** : Le cœur théorique. Décrit le cycle métabolique, la photodésintégration dans les trous noirs et la résonance harmonique (CMB).
 * **[Observations/Empirical_Validation.pdf](./Observations/VALIDATION-EMPIRIQUE-TGF.pdf)** : Le protocole de test. Détaille les signatures observationnelles et les critères de falsification.
 
 ---
