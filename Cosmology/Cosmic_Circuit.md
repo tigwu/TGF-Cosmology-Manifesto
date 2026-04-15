@@ -32,7 +32,7 @@ EN: Ejection of excess thermal energy (Fermi Bubbles).
 
     Rôle : Maintenir l'équilibre thermique du système. / Maintain the thermal equilibrium of the system.
 
-🎯 Résoudre la Tension de Hubble / Solving the Hubble Tension
+   Résoudre la Tension de Hubble / Solving the Hubble Tension
 
 FR : La "Tension de Hubble" (différence de vitesse d'expansion mesurée) n'est plus une anomalie dans la TGF. L'expansion n'est pas uniforme :
 
