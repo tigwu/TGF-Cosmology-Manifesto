@@ -1,14 +1,37 @@
-# TGF Flux Solver - Concept
-for particle in galaxy_field:
-    # 1. Calculate pressure from Voids (Source)
-    inflow = calculate_void_pressure(particle.position)
-    
-    # 2. Apply Viscosity (The "Dark Matter" effect)
-    drag_force = eta * laplacian(particle.velocity)
-    
-    # 3. Sink effect at the center (S_gal < 0)
-    if particle.at_center():
-        particle.eject_polar() # Create Fermi Bubbles (Phi_Out)
-    
-    # 4. Update velocity and position
-    particle.velocity += inflow + drag_force
+# ==========================================
+# TGF FLUX SIMULATOR - Core Engine (v2.0)
+# Transition de Phase & Dynamique des Bras
+# ==========================================
+
+import numpy as np
+
+class GalaxyFlow:
+    def __init__(self, eta, rho_crit):
+        self.eta = eta                # Viscosité cinématique du vide
+        self.rho_crit = rho_crit      # Seuil de condensation (Flux -> Matière)
+        self.phi_field = []           # Le champ scalaire circulant
+
+    def run_step(self):
+        """
+        Calcule un pas de temps du métabolisme galactique
+        """
+        for cell in self.phi_field:
+            # 1. Calcul de l'injection (Source: Grands Vides)
+            # inflow = pressure_from_voids(cell.pos)
+            
+            # 2. Application de la viscosité (Effet Matière Noire)
+            # drag = self.eta * laplacian(cell.velocity)
+            
+            # 3. TRANSITION DE PHASE (Nouveauté TGF)
+            # Si la compression dépasse le seuil, le flux précipite en matière
+            if cell.density > self.rho_crit:
+                cell.star_formation_rate = (cell.density - self.rho_crit) * 0.1
+                cell.baryon_mass += cell.star_formation_rate
+                cell.density -= cell.star_formation_rate # Conservation de l'énergie
+            
+            # 4. Échappement Polaire (Puits: Trou Noir central)
+            if cell.is_at_center():
+                self.eject_fermi_bubbles(cell)
+
+# Note: Ce code remplace les modèles N-corps classiques par une 
+# approche hydrodynamique scalaire (CFD).
