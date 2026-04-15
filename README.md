@@ -1,7 +1,7 @@
 # Grand Flow Theory (TGF) / Théorie du Grand Flux
 ### A Stationary Metabolic Universe Model / Modèle d'Univers Stationnaire Métabolique
 
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.VOTRE_NUMERO-blue)](https://doi.org/10.5281/zenodo.VOTRE_NUMERO)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.19596022-blue)](https://doi.org/10.5281/zenodo.19596022)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
 ---
